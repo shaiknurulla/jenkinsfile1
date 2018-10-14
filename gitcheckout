@@ -1,6 +1,6 @@
 node{
  stage('SCM Checkout'){
    git credentialsId: 'github', 
-   url: 'https://github.com/shaiknurulla/jenkinsfile1.git/my-app'
+   url: 'https://github.com/shaiknurulla/jenkinsfile1.git'
    }
  }
